@@ -1,22 +1,59 @@
-h2
+h3
 {
-   
+   font-size: 30px;
     margin-left: 12%;
     align-items: center;
     display: inline;
     font-family: 'Poppins', sans-serif;
 }
 
-#header
+h2
 {
-    padding-top: 1%;
-    background-color: #0e2e5a;
-    padding-bottom: 2%;
-}
-body{
-    padding:0;
-    margin:0;
-    background-color:azure;
-    white-space: nowrap;
+    margin-left: 10%;
+    font-size: 44px;
 }
 
+#whoami
+{
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+#hobbies
+{
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+p 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+
+}
+
+#header
+{
+    margin-bottom: 10%;
+
+}
+body{
+
+    background-image: url(../src/About_Me.png);
+    background-size: cover;
+
+}
+
+#HeaderName
+{
+    padding-left: 5%;
+}
+
+h1
+{
+
+    margin-left: 5%;
+    font-size: 80px;
+    display:inline;
+}
