@@ -1,10 +1,15 @@
 h3
 {
-   font-size: 30px;
+    font-size: 30px;
     margin-left: 12%;
     align-items: center;
     display: inline;
     font-family: 'Poppins', sans-serif;
+}
+
+p,h2,h3,h4,h1
+{
+    color: #a7abc5
 }
 
 h2
@@ -39,9 +44,10 @@ p
 
 }
 body{
-
-    background-image: url(../src/About_Me.png);
+    
+    background-image: url(../src/About_Me2.png);
     background-size: cover;
+    background-color: #1e1d2b;
 
 }
 
