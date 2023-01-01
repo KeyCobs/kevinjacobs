@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Jacobs</title>
+</head>
+<body>
+    <div id="header">
+        <a class="headLink" href="./pages/aboutMe.html"><h2>About me</h2></a>
+        <a class="headLink" href="./pages/projects.html"><h2>Projects</h2></a>
+        <a class="headLink" href="./pages/cv.html"><h2>CV</h2></a>
+        <a class="headLink" href="./pages/contactMe.html"><h2>Contact me</h2></a>
+        <a class="headLink" href="./pages/others.html"><h2>Others</h2></a>
+    </div>
+    <div class="typename">
+        <h1>Welcome <span class="auto-type"></span></h1>      
+    </div>
+
+
+    
+
+    <!--source: https://codecary.com/text-typing-animation-on-website-using-html-css/
+      
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type",
+        {
+            strings: ["I'm Kevin","I like Programming","I like Video Games","I also like Game Development","I like to write","I play Dungeons and Dragons"],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+</body>
+</html>
