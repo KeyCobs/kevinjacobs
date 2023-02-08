@@ -97,6 +97,7 @@ color : #2f3640;
   width: 100%;
   padding-bottom: 150%;
   perspective: 1000px;
+  display: list-item;
 }
 .b-game-card__cover {
   position: absolute;
