@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./../css/projects.css">
+    <link rel="stylesheet" href="./../css/Common.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My projects</title>
 </head>
 <body>
   <script src="../js/projects.js"></script>
-    <div id="header">
-        <a class="headLink" href="../index.html"><h3>Home</h3></a>
-        <a class="headLink" href="./aboutMe.html"><h3>about me</h3></a>
-        <a class="headLink" href="./cv.html"><h3>CV</h3></a>
-        <a class="headLink" href="./contactMe.html"><h3>Contact me</h3></a>
-        <a class="headLink" href="./others.html"><h3>Others</h3></a>
+  <header>
+    <div class="header-container">
+      <nav>
+        <ul>
+          <li><a class="headLink" href="../index.html"><h2>Home</h2></a></li>
+          <li><a class="headLink" href="./aboutMe.html"><h2>about me</h2></a></li>
+          <li><a class="headLink" href="./Experience.html"><h2>My Experience</h2></a></li>
+          <li><a class="headLink" href="./contactMe.html"><h2>Contact me</h2></a></li>
+          <li><a class="headLink" href="./others.html"><h2>Others</h2></a></li>
+        </ul>
+      </nav>
     </div>
-    
+  </header>
+
     <div class="searchBox">
 
-        <input class="searchInput" id="searchProject" type="text" name="search" onkeyup="SearchAnimal()" placeholder="Search">
+        <input class="searchInput" id="searchProject" type="text" name="search" onkeyup="SearchAnimal()" placeholder="C#, .NET, WIP">
         <button class="searchButton"  href="">
             <i class="material-icons">
-                search
+               Search
             </i>
         </button>
     </div>

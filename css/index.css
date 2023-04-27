@@ -3,13 +3,10 @@ h2
     margin-left: 12%;
     align-items: center;
     display: inline;
+
 }
 
-h1
-{
-    color: white;
-    
-}
+
 
 *{
     margin: 0;
@@ -19,7 +16,7 @@ h1
   }
   .typename{
  
-    height: 100vh;
+    height: 50vh;
 
     color: #fff;
     display: flex;
@@ -41,9 +38,6 @@ h1
 
     padding:0;
     margin:0;
-
-
-
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
